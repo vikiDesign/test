@@ -1,0 +1,167 @@
+@media (min-width: 320px) {
+  * {
+    box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.4;
+    font-size: 18px; }
+
+  header {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 10px; }
+    header h1 {
+      margin: 0;
+      float: left;
+      padding: 40px; }
+    header ul {
+      display: none; }
+    header .hamburger {
+      display: block;
+      float: right;
+      width: 50px;
+      height: 50px; }
+      header .hamburger .crtica {
+        width: 50px;
+        height: 2px;
+        margin-bottom: 10px;
+        background-color: #000; }
+
+  .jumbotron img {
+    width: 100%; }
+
+  .top-text {
+    background-color: #d6d6d6; }
+    .top-text h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 40px;
+      margin: 0; }
+    .top-text p {
+      text-align: center;
+      padding: 15px; }
+
+  .product img {
+    width: 100%; }
+  .product h3 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-right: 20px; }
+
+  .bottom-text h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px; }
+  .bottom-text p {
+    text-align: center;
+    font-size: 18px; }
+
+  footer {
+    background-color: #d6d6d6;
+    padding: 10px 0 60px 0; }
+    footer p {
+      text-align: left;
+      font-size: 18px; }
+    footer .clearfix {
+      clear: both; }
+    footer .soc-net img {
+      width: 50px;
+      height: 50px;
+      float: left;
+      margin-right: 15px;
+      display: block; } }
+@media (min-width: 576px) {
+  header {
+    background-color: #d6d6d6; }
+    header h1 {
+      font-size: 46px; }
+    header .hamburger {
+      margin: 50px 50px 0 0; }
+
+  .top-text h2 {
+    font-size: 46px; }
+  .top-text p {
+    font-size: 18px;
+    margin-top: 0; }
+
+  .collections .product h3 {
+    font-size: 54px;
+    padding-right: 20px; }
+  .collections .bottom-text h3 {
+    font-size: 46px; }
+  .collections footer {
+    font-size: 22px; } }
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto; }
+
+  header h1 {
+    font-size: 64px; }
+
+  .top-text p {
+    font-size: 24px; }
+  .top-text h2 {
+    font-size: 60px; }
+
+  .bottom-text p {
+    font-size: 24px; }
+
+  footer p {
+    font-size: 24px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+    margin: 0 auto; }
+
+  header .hamburger {
+    display: none; }
+  header ul {
+    display: block;
+    float: right;
+    list-style: none;
+    margin-top: 60px; }
+    header ul li {
+      float: left;
+      margin-right: 20px;
+      border-right: 1px solid #000; }
+      header ul lili:last-child {
+        border-right: none; }
+      header ul li a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+        padding: 0 10px; }
+
+  .top-text h2 {
+    font-size: 64px; }
+  .top-text p {
+    font-size: 32px; }
+
+  .collections .product h3 {
+    font-size: 64px; }
+
+  .bottom-text h3 {
+    font-size: 58px; }
+  .bottom-text p {
+    font-size: 32px; }
+
+  footer p {
+    font-size: 32px; } }
+@media (min-width: 1200px) {
+  header ul li a {
+    font-size: 26px; }
+
+  .bottom-text h2 {
+    font-size: 64px; }
+  .bottom-text p {
+    font-size: 36px; }
+
+  footer p {
+    font-size: 36px; } }
+
+/*# sourceMappingURL=main.css.map */
